@@ -11,7 +11,7 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
 
     // generate Password criteria
-     function generatePassword() {
+    function generatePassword() {
       // password length
       var passwordLength = prompt("How long do you need your password to be? (8-128 characters)");
       // check password length
