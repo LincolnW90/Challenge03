@@ -57,7 +57,7 @@ function writePassword() {
       // define password string
       // begin generating characters
       for(i=1; i<=passwordLength; i++){
-        
+        Math.floor(Math.random(characterpool.length + 1))
       };
 
     };
