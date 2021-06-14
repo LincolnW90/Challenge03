@@ -56,11 +56,14 @@ function writePassword() {
 
       // define password string
       // begin generating characters
-      for(i=1; i<=passwordLength; i++){
-      var randomCharacter = (Math.floor(Math.random()*characterpool.length + 1));
-      return randomCharacter[i];
+      for(i=0; i<passwordLength; i++){
+      var randomCharacter = characterpool[Math.floor(Math.random()*characterpool.length)];
+      console.log(randomCharacter);
       };
 
+
+
+      
     };
     // end generatePassword function
 
